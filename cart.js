@@ -2,8 +2,8 @@ let basket = JSON.parse(localStorage.getItem("data")) || [];
 
 let totalitems = () => {
   let search = basket
-    .map((x) => {
-      return x.qty;
+    .map((i) => {
+      return i.qty;
     })
     .reduce((x, y) => {
       return x + y;
