@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+    background: rgb(67, 62, 62);
+    color: white;
+    font-size: 2rem;
+}
+
+.navbar .cart {
+    position: relative;
+    background: white;
+    color: black;
+    padding: 1rem;
+    font-size: 2rem;
+    border: 2px solid red;
+    border-radius: 20%;
+}
+
+.cart .cartamount {
+    position: absolute;
+    right: -0.7rem;
+    top: -1.5rem;
+    background: red;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 20%;
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+    background: wheat;
+    padding: 14rem;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+
+.products .items {
+    background: beige;
+    border: 2px solid black;
+    border-radius: 10%;
+    overflow: hidden;
+    width: 20rem;
+}
+
+.items .details {
+    padding: 1rem 1rem;
+    font-size: 1.4rem;
+    overflow: hidden;
+}
+
+.amt {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    gap: 0.5rem;
+}
+#cart{
+    display: flex;
+    justify-content: space-around;
+}
